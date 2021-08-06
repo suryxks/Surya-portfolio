@@ -43,6 +43,7 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin:0.5rem;
 }
 
 .link-primary {
@@ -52,9 +53,9 @@ hr {
 }
 
 .link-secondary {
-    color: var(--primary-color);
+    color: white;
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid whitesmoke;
 }
 
 /* list */
