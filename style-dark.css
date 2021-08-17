@@ -42,7 +42,7 @@ hr {
 /**links**/
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     
 }
 
@@ -101,7 +101,7 @@ hr {
 }
 
 .hero-img {
-    max-width: 350px;
+    max-width: 330px;
     display: block;
     margin: auto;
 }
