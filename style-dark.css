@@ -48,13 +48,14 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     color: white;
+    margin:0.3rem;
 }
 
 .link-secondary {
     color: white;
-    border-radius: 0.5rem;
+    border-radius: 0.2rem;
     border: 1px solid whitesmoke;
 }
 
@@ -104,6 +105,7 @@ hr {
     max-width: 330px;
     display: block;
     margin: auto;
+    /* min-width: 30%; */
 }
 
 .hero .hero-heading {
