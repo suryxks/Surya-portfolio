@@ -16,6 +16,10 @@ body {
 hr {
     margin: 2rem 0;
 }
+small{
+    display: block;
+    margin-bottom: 2rem;
+}
 .large{
     font-size:1.2rem;
 }
