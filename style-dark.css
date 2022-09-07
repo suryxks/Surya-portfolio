@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 :root {
-    --dark:#202945;
-    --primary-color: #34D399;
-    --off-black: #374151;
+    --dark:#000000;
+    --primary-color:#5b21b6;
+    --off-black: #16181A;
 }
 
 body {
