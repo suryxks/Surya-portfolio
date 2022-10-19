@@ -4,7 +4,17 @@
     --primary-color:#5b21b6;
     --off-black: #16181A;
 }
-
+@keyframes shake{
+    0% {
+        transform:  rotate(5deg) skewX(2.5deg) scale(1);
+      }
+      50% {
+        transform: rotate(-5deg) skewX(-2.5deg)  scale(1);
+      }
+      100%{
+        transform: scale(1.1);
+      }
+}
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
@@ -36,6 +46,12 @@ small{
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+.section:hover>div{
+    /* transform: scale(1.1) skewX(5deg) skewY(5deg); */
+    animation: shake 1s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
 }
 
 .container-center {
@@ -116,12 +132,17 @@ small{
     padding-top: 1rem;
     text-align: center;
     color: var(--grey-color);
+    width: 70%;
+    margin: 0.5rem auto;
+    /* text-align: left; */
 }
 
 /* section */
 .section {
     padding: 2rem;
     text-align: center;
+    width: 60%;
+    margin: 3.5rem auto;
 }
 
 .section h1 {

@@ -91,12 +91,14 @@ hr {
     max-width: 350px;
     display: block;
     margin: auto;
+    
 }
 
 .hero .hero-heading {
     padding-top: 1rem;
     text-align: center;
     color: var(--grey-color);
+   
 }
 .large{
     font-size:1.2rem;
